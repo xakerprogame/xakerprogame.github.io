@@ -47,8 +47,15 @@
 		Затем выбранное изображение отображается в пространстве, занятом элементом <code>img</code>. 
 		</p>
 		<picture>
-		<source srcset="mushroom.png">
-		<img src="mushroom_portrait.jpg">
+		<source
+		media="(min-width: 600px)"
+		sizes="50vw"
+		srcset="mushroom.jpg 600w,
+				mushroom_landscape.jpg 600w,
+				mushroom_portrait.jpg 300w,
+				mushroom_retina.jpg 1200w,
+		type="image/webp">
+		<img src="mushroom.jpg" alt="Мухомор"> </img>
 		</picture>
 	</section>
 </body>
