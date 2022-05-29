@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        let book1 = new Object();
+        book1.title = 'Книга';
+        book1.pubYear = '1999';
+        book1.price = '0р';
+
+        let book2 = {
+            title: "Не книга",
+            pubYear: "2000",
+            price: "1р"
+        }
+
+        for (let i in book1) {
+            console.log(i + " - " + book1[i])
+        }
+
+        for (let i in book2) {
+            console.log(i + " - " + book2[i])
+        }
+    </script>
+</body>
+</html>
