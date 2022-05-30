@@ -1,12 +1,12 @@
-
 <!DOCTYPE html>
-<html>
+<html lang = "ru">
 <head>
-<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+<title>РАСКРЫВАЮЩЕЕСЯ МЕНЮ</title>
 <style>
 .dropbtn {
-    background-color: w;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -59,7 +59,6 @@
 .menu li:before {
   font-family: FontAwesome;
   font-size: 20px;
-  vertical-align:left;
   color: #dd3333; 
   margin-right: 14px;
 }
@@ -74,10 +73,13 @@
 </head>
 <body>
 <nav class="menu">
+
 <ul>
+<li>
 <div class="dropdown">
 <div class="a1">
-  <button class="dropbtn"><li><a>ФИЛЬМЫ</a></li></button>
+
+  <button class="dropbtn"> <i class="fas fa-film"></i>ФИЛЬМЫ</button>
   <div class="dropdown-content">
     <a href="#">Экшн</a>
     <a href="#">Мелодрамы</a>
@@ -86,10 +88,11 @@
   </div>
 </div>
 </div>
-<p> <p>
+<p> </p>
+
 <div class="dropdown">
 <div class="a2">
-  <button class="dropbtn"><li><a>МУЗЫКА</a></li></button>
+  <button class="dropbtn"><i class="fas fa-music"></i>МУЗЫКА</button>
   <div class="dropdown-content">
     <a href="#">Классика</a>
     <a href="#">Джаз</a>
@@ -101,7 +104,7 @@
 <p> <p>
 <div class="dropdown">
 <div class="a3">
-  <button class="dropbtn"><li><a">СОФТ</a></li></button>
+  <button class="dropbtn"><i class="fas fa-keyboard"></i>СОФТ</button>
   <div class="dropdown-content">
     <a href="#">Графика</a>
     <a href="#">3D-моделирование</a>
@@ -113,7 +116,7 @@
 <p> <p>
 <div class="dropdown">
 <div class="a4">
-  <button class="dropbtn"><li><a>ИГРЫ</a></li></button>
+  <button class="dropbtn"><i class="fas fa-gamepad"></i>ИГРЫ</button>
   <div class="dropdown-content">
     <a href="#">РПГ</a>
     <a href="#">Шутеры</a>
@@ -121,6 +124,8 @@
   </div>
 </div>
 </div>
+
+</li>
 </ul>
 </nav>
 
