@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
 <meta charset="utf-8">
 <title>Форма</title>
@@ -9,16 +10,14 @@
 <table>
 	<tbody>
 		<tr>
-			<td for="email">E-mail</td>
-			<td colspan="2>
-				<for="email">
+			<td id="email">E-mail</td>
+			<td colspan="2">	
 				<input type="email" name="email" required>
 			</td>
 		</tr>
 		<tr>
 			<td>Пароль</td>
 			<td colspan="2">
-				<for="password">
 				<input type="password" name="password" required>
 			</td>
 		</tr>
@@ -26,19 +25,18 @@
 			<td>Пол</td>
 			<td>
 			<label>
-				<input type="radio" name="sex" class="radio-control male value="male">Мужчина
+				<input type="radio" name="sex" class="radio-control male" value="male">Мужчина
 			</label>
 			</td>
 			<td>
 			<label>
-				<input type="radio" name="sex" class="radio-control female value="female">Женщина
+				<input type="radio" name="sex" class="radio-control female" value="female">Женщина
 			</label>
 			</td>
 		</tr>
 		<tr>
 			<td>Год рождения</td>
 			<td>
-				<for="dateborn">
 				<select name="dateborn">
 				<option>Год рождения</option>
 				<option value="1910">1910</option> 
@@ -177,10 +175,9 @@
 <tbody>
 		<tr>
 			<td>Обо мне</td>
-			<td colspan="2">
+			<td>
 			<textarea id="about_me" name="about_me" rows="5" cols="33" placeholder="Напишите коротко о себе"></textarea >
 			</td>
-			<td colspan="2"></td>
 		</tr>
 </tbody>
 </table>
